@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "instimapline@1.2.0",
+      "D:\\code\\microservice-angular\\MapMicroservice-angular"
+    ]
+  ],
+  "_from": "instimapline@1.2.0",
+  "_id": "instimapline@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-5QWVi7R7TJYx9bjkD3KhBi4SkyIzTJp4NyCM/B3z0knsCryCA64RAzRFT0ENSEYmyjGLCqONqpduh4TeSVmdUQ==",
+  "_location": "/instimapline",
+  "_phantomChildren": {
+    "pbf": "3.1.0",
+    "pixelworks": "1.1.0",
+    "rbush": "2.0.1"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "instimapline@1.2.0",
+    "name": "instimapline",
+    "escapedName": "instimapline",
+    "rawSpec": "1.2.0",
+    "saveSpec": null,
+    "fetchSpec": "1.2.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/instimapline/-/instimapline-1.2.0.tgz",
+  "_spec": "1.2.0",
+  "_where": "D:\\code\\microservice-angular\\MapMicroservice-angular",
+  "author": {
+    "name": "Varun Patil",
+    "email": "radialapps@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/pulsejet/InstiMapWeb/issues"
+  },
+  "dependencies": {
+    "ol": "4.6.4"
+  },
+  "description": "A web implementation of InstiMap in Openlayers",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@types/ol": "4.6.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babelify": "^10.0.0",
+    "typescript": "^3.3.3"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/pulsejet/InstiMapWeb#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "instimapline",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pulsejet/InstiMapWeb.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build-demo": "browserify -g [ babelify --presets [ \"@babel/preset-env\" ] ] demo/demo.js -o demo/bundle.js"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.2.0"
+}
